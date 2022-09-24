@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+
+<head>
+  
+    <title>BASIC HTML DOCUMENT</title>
+</head>
+
+<style>
+    label {
+        color: rgb(81, 7, 229);
+        font-size: large;
+        
+        margin: 20px;
+        
+    }
+    body{
+        background-color: aquamarine;
+        max-width: 500px;
+  margin: auto;
+
+    }
+
+</style>
+
+<body>
+    
+
+    <form action="submit">
+
+        <!--  FORMS -->
+        <!-- Normal Input -->
+        <label for="name">Please enter your name:</label>
+        <input type="text" id="studName">
+        <br>
+        <label for="cin">Please enter your cin number:</label>
+        <input type="text" id="cin">
+        <br>
+
+        <!-- Datepicker -->
+        <label for="dob">Please enter your date of birth:</label>
+        <input type="date">
+        <br>
+
+        <!-- Email -->
+        <label for="email">Please enter your email:</label>
+        <input type="email">
+        <br>
+
+        <!-- Phone number -->
+        <label for="phone">Please enter your phone:</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <br>
+
+        <!-- Dropdown -->
+        <label for="classT">Please choose class of travel:</label>
+        <select name="classT" id="studSection">
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            <option value="d">D</option>
+            <option value="e">E</option>
+        </select>
+        <br>
+
+
+        <!-- Color -->
+        <label for="favColor">WHat is your Favorite Color</label>
+        <input type="color" id="favColor">
+        <br>
+
+        <!-- File -->
+        <label for="travel history">Please upload your Travel History</label>
+        <input type="file" id="travel">
+        <br>
+
+        <label for="portfolio">Please provode URL</label>
+        <input type="url" id="portfolio">
+        <br>
+        
+
+        <!-- Radio Button -->
+        <label for="gender">Please choose your gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <input type="radio" id="other" name="gender" value="Other">Other
+        <br>
+
+        <!-- Checkbox -->
+        <label for="mode">Please choose your mode:</label>
+        <input type="checkbox" id="bus" name="mode" value="bus">bus
+        <input type="checkbox" id="car" name="mode" value="car">car
+        <input type="checkbox" id="train" name="mode" value="train">train
+        <input type="checkbox" id="plane" name="mode" value="plane">plane
+        <input type="checkbox" id="scooter" name="mode" value="scooter">scooter
+        <br>
+
+        
+
+        <!-- Image -->
+        <label for="image">Please upload your  pic</label>
+        <input type="image" id="profilePic" src="image.jpg" alt="Default Image" width="400px" height="200px">
+        <br>
+
+        <!-- Number -->
+        <label for="nooftrips">Please enter your number of trips</label>
+        <input type="number" id="nooftrips">
+        <br>
+
+        <!-- Password -->
+        <label for="password">Please enter a password</label>
+        <input type="password" id="password">
+        <br>
+
+        <!-- Password -->
+        <label for="rePassword">Please enter a password again </label>
+        <input type="password" id="rePassword">
+        <br>
+
+        <!-- Range -->
+        <label for="range">Please enter a frequency of travelling</label>
+        <input type="range" id="range" min="10" max="1000">
+        <br>
+
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    <h1>Heading 1 </h1>
+    <h2>Heading 2 </h2>
+    <h3>Heading 3 </h3>
+    <h4>Heading 4 </h4>
+    <h5>Heading 5 </h5>
+    <h6>Heading 6 </h6>
+
+</body> 
+
+</bus>
